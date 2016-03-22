@@ -1,0 +1,22 @@
+'scopeName': 'source.asy'
+'name': 'Asymptote'
+'fileTypes': [
+    'asy'
+]
+'patterns': [
+  {
+    'include': '#comment'
+  }
+]
+'repository':
+  'comment':
+    'captures':
+      '1':
+        'name': 'comment.line.number-sign.asy'
+      '2':
+        'name': 'punctuation.definition.comment.asy'
+      '3':
+        'name': 'comment.line.semi-colon.asy'
+      '4':
+        'name': 'punctuation.definition.comment.asy'
+    'match': '((#).*$\\n?)|((;).*$\\n?)'
